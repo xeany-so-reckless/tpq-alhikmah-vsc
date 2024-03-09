@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-color {
+    background: #bfeddc;
+}
+
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #67eeb6;
+    z-index: 99;
+}
+
+.imagenav img{
+    width: 70px;
+    height: 80px;
+    margin-left: -22rem;
+}
+
+.section__container {
+    width: 550px;
+}
+
+.section__container h2{
+    font-size: 60px;
+}
+
+.section__container h5{
+    font-size: 30px;
+}
+
+.section__container p{
+    font-size: larger;
+}
+
+.section__container{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: black;
+    margin-top: 10rem;
+}
+
+.nav__content{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    transition: 0.5s;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.9s;
+}
+
+ul li a{
+    padding: 0.5rem 1 rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+
+img{
+    width: 285px;
+    padding: 0;
+}
+
+.image img{
+    align-items: center;
+    width: 270px;
+    justify-content: center;
+    margin-left: 50px;
+    height: 400px;
+
+}
+
+.image{
+    display: grid;
+    place-items: center;
+    margin-top: 160px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tambah a{
+    margin-left: 20rem;
+}
+
+.tabel{
+    margin-bottom: 7rem;
+}
+
+
+.tabel1 {
+    font-family: sans-serif;
+    color: #151313;
+    border-collapse: collapse;
+    width: 50%;
+    border: 0px solid rgb(0, 0, 0);
+    margin-top: 100px;
+}
+
+.tabel1 tr th {
+    background: #6effc2;
+    color: black;
+    font-weight: normal;
+}
+
+.tabel1, th, td {
+   
+    text-align: center;
+}
+
+.tabel1 tr:nth-child(even) {
+    background: #a0f2d1 ;
+}
+.tambah{
+  margin-bottom: -5rem;
+  margin-top: 8rem;
+}
+
+.footer{
+    padding: 5px 0;
+    background-color: #7cffc8;
+    color: black;
+    text-align: center;
+}
